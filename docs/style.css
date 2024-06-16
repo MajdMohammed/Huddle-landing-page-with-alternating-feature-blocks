@@ -229,7 +229,7 @@ section {
 }
 
 .flex-box {
-    max-width: 29rem;
+    width: 100%;
 }
 
 section img {
@@ -390,7 +390,7 @@ a svg:hover {
     }
 
     main {
-        padding: ;
+        padding: 6rem 2rem;
     }
 
     section {
@@ -415,6 +415,13 @@ a svg:hover {
 
     .flex-box {
         margin-top: 3rem;
+        width: 29rem;
     }
 
+}
+
+@media (min-width: 1024px) {
+    .flex-box {
+        width: 29rem;
+    }
 }
